@@ -1,5 +1,4 @@
 
-
 export const VariableAndDataTypes = () => {
     let firstNumber = 10;
     const secondConstant = "Hello";

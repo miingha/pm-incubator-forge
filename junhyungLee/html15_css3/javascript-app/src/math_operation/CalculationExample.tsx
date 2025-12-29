@@ -1,4 +1,4 @@
-// Javascript 함수형 객체 만들 떄 패턴
+// Javascript 함수형 객체 만들 때 패턴
 // 1. export const <- 고정
 // 2. 함수 이름
 // 3. =() => {} 고정

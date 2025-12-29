@@ -1,5 +1,6 @@
 import './App.css'
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
+import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { CalcuationExample } from './math_operation/CalculationExample'
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
        {/* 이와 같은 형태로 직접 커스텀 태그를 만들면 
        지저분해지는 상황을 방지할 수 있습니다 */}
        {/* 관심사의 분리를 달성할 수 있음 */}
+       {/* 제대로 된 태그를 만들어 놓으면 복붙으로 재사용 가능 */}
        <CalcuationExample/>
+       <LogicalOperationExample/>
        <VariableAndDataTypes/>
       </div>
     </>

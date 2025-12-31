@@ -9,6 +9,8 @@ import { ControlFlowFor } from './control_flox/ControlFlowFor'
 import { ControlFlowForSummation } from './control_flox/ControlFlowForSummation'
 import { ControlFlowForSumExample } from './control_flox/ControlFlowForSumExample'
 import SecondProblem from './problem/SecondProblem'
+import {MapExample} from './Map/MapExample'
+import {MapReduceExample} from './Map/MapReduceExample'
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
         <ControlFlowForSummation/>
         <ControlFlowForSumExample/>
         <SecondProblem/>
+        <MapExample/>
+        <MapReduceExample/>
       </div>
     </>
   )
